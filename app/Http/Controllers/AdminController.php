@@ -75,4 +75,4 @@ class AdminController extends Controller
         return back()->withErrors(['code' => 'The provided verification code is incorrect.']);
     }
 
-} 
+}     
